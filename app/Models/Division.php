@@ -19,4 +19,10 @@ class Division extends Model
     {
         return $this->hasMany(Employee::class);
     }
+    
+    
+    public function other()
+    {
+        return $this->hasMany(Employee::class);
+    }
 }
